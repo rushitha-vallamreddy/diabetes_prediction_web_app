@@ -11,7 +11,8 @@ import pickle
 import streamlit as st
 
 
-loaded_model = pickle.load(open(r"C:\Users\rushi\Desktop\models\diabetes_model.sav", "rb"))
+
+loaded_model = pickle.load(open("C:/Users/rushi/Desktop/models/diabetes_model.sav" "rb"))
 
 
 # creating a function for Prediction
